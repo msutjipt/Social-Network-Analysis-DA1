@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "social-network-analysis-da1"
+version = "0.1.0"
+description = ""
+authors = ["Marc Sutjipto <marcsutjipto@gmx.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+networkx = "^3.4.2"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
