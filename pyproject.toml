@@ -12,6 +12,12 @@ python = "^3.12"
 pandas = "^2.2.3"
 networkx = "^3.4.2"
 python-dotenv = "^1.0.1"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+torchaudio = "^2.5.1"
+transformers = "^4.48.0"
+openai = "^1.59.7"
+scikit-learn = "^1.6.1"
 
 
 [build-system]
