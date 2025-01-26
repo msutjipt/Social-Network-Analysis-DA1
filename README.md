@@ -1,1 +1,70 @@
 # Social-Network-Analysis-DA1
+
+## 1. Background and Task Description
+This project is based on a case study as part of the course Data Analytics a in the Master of Information Systems at the 
+University of Muenster. The main task is to build analyze social network data from various perspectives such as the user, 
+the social media posts or the relationships between them. 
+
+## 2. Folder Structure 
+```
+└── Social-Network-Analysis-DA1
+    ├── GROUP_F
+    │   ├── 1_descriptive_analysis
+    │   │   └── desriptive_analysis.ipynb
+    │   ├── 2_community_detection
+    │   │   └── community_detection.ipynb
+    │   ├── 3_popularity_metrics
+    │   │   └── popularity_metrics.ipynb
+    │   ├── 4_sentiment_analysis
+    │   │   └── sentiment_analysis.ipynb
+    │   ├── 5_text_clustering
+    │   │   └── text_clustering.ipynb
+    │   ├── data
+    │   ├── docs
+    │   ├── models
+    │   │   └── embeddings_n2v.model
+    │   └── utils
+    │       ├── __init__.py
+    │       └── json_to_csv.py
+    ├── README.md
+    ├── .ruff.toml
+    ├── poetry.lock
+    └── pyproject.toml
+```
+
+## 3. Sections
+The code for our project can be found in 3.1 - 3.5. 
+A description of each section can be found below
+
+### 3.1 1_descriptive_analysis
+This folder contains a notebook covering basic descriptive 
+analysis about the network structure and the users (nodes).
+
+### 3.2 2_community_detection
+This folder contains a notebook covering functionality for community detection. 
+In particular, techniques based on the network representation as well as 
+embeddings based on the graph.csv.
+
+### 3.3 3_popularity_metrics
+This folder contains a notebook covering functionality for calculating 
+common popularity metrics such as page_rank, degree etc.
+
+### 3.4 4_sentiment_analysis
+This folder contains a notebook covering functionality for 
+conducting a sentiment analysis based on a pre-trained 
+transformer model from Huggingface.
+
+
+### 3.5 5_text_clustering
+This folder contains a notebook covering functionality for 
+conducting a text clustering based on the posts from the users.
+
+### 3.6 data
+This folder contains all data, which was either given or produced during the 
+case study 
+
+### 3.7 docs 
+This folder contains all figures, which we produced during the case study
+
+### 3.8 docs 
+This folder contains a trained node2vec model used in section 3.2
