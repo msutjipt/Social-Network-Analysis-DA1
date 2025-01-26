@@ -1,7 +1,7 @@
 # Social-Network-Analysis-DA1
 
 ## 1. Background and Task Description
-This project is based on a case study as part of the course Data Analytics a in the Master of Information Systems at the 
+This project is based on a case study as part of the course Data Analytics 1 in the Master of Information Systems at the 
 University of Muenster. The main task is to build analyze social network data from various perspectives such as the user, 
 the social media posts or the relationships between them. 
 
@@ -22,7 +22,6 @@ the social media posts or the relationships between them.
     │   ├── data
     │   ├── docs
     │   ├── models
-    │   │   └── embeddings_n2v.model
     │   └── utils
     │       ├── __init__.py
     │       └── json_to_csv.py
