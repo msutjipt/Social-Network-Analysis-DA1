@@ -106,9 +106,3 @@ On MacOS/Linux the default path for the poetry virtual machine is:
 ```
 /Users/your_user/Library/Caches/pypoetry/virtualenvs
 ```
-
-
-
-
-
-
