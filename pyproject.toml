@@ -4,12 +4,17 @@ version = "0.1.0"
 description = ""
 authors = ["Marc Sutjipto <marcsutjipto@gmx.de>"]
 readme = "README.md"
+packages = [
+    {include = "GROUP_F"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
 pandas = "^2.2.3"
 networkx = "^3.4.2"
 python-dotenv = "^1.0.1"
+matplotlib = "^3.10.0"
+scipy = "^1.15.1"
+seaborn = "^0.13.2"
 
 
 [build-system]
