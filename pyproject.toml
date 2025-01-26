@@ -28,8 +28,6 @@ torchvision = "^0.20.1"
 torchaudio = "^2.5.1"
 statsmodels = "^0.14.4"
 python-louvain = "^0.16"
-hdbscan = "^0.8.40"
-bctpy = "^0.6.1"
 
 
 [build-system]
