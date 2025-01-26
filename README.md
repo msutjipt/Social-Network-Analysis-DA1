@@ -68,3 +68,47 @@ This folder contains all figures, which we produced during the case study
 
 ### 3.8 docs 
 This folder contains a trained node2vec model used in section 3.2
+
+
+## 3. Getting Started
+For dependency management we used Poetry and for code linting 
+we used Ruff as external tools.
+
+### 3.1 Install pipx 
+To make use of Poetry you need to install pipx. This can be done by the following command 
+```
+pip install pipx
+```
+
+### 3.2 Installing Poetry 
+After that you can install Poetry by typing:
+```
+pipx install poetry 
+```
+
+### 3.3 Install Poetry Virtual Machine
+After that you can install the poetry virtual machine by typing
+```
+cd ./Social-Network-Analysis-DA1
+```
+
+```
+poetry install
+```
+
+### 3.4 Using Poetry Virtual Machine
+On Windows the default path for the poetry virtual machine is: 
+```
+C:\Users\your_user\AppData\Local\pypoetry\virtualenvs\
+```
+
+On MacOS/Linux the default path for the poetry virtual machine is: 
+```
+/Users/your_user/Library/Caches/pypoetry/virtualenvs
+```
+
+
+
+
+
+
